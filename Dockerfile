@@ -13,7 +13,7 @@
 # limitations under the License.
 
 ##### BEGIN BASE IMAGE #####
-FROM python:3.6.9-slim-buster as base
+FROM python:3.11.0rc1-slim-buster as base
 
 ARG UID=1000
 ARG GID=1000
