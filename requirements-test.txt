@@ -5,3 +5,4 @@ grpcio-tools==1.30.0
 google-cloud-securitycenter==0.6.0
 google-cloud-storage==1.25.0
 pytest==5.3.3
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
