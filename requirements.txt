@@ -18,3 +18,4 @@ future==0.17.1
 
 # Latest versions of setuptools cause issues when pytest is installed
 setuptools==47.2.0
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
