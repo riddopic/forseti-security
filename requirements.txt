@@ -2,7 +2,7 @@
 # here should also be added to setup.py
 
 # Needed for compiling of Forseti protos during the build & install.
-protobuf==3.13.0
+protobuf==4.25.8
 grpcio==1.22.0
 grpcio-tools==1.22.0
 pyyaml==4.2b4
@@ -18,3 +18,4 @@ future==0.17.1
 
 # Latest versions of setuptools cause issues when pytest is installed
 setuptools==47.2.0
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
